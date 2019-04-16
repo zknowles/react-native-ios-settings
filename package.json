@@ -3,16 +3,25 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [
     "react-native"
   ],
-  "author": "",
-  "license": "",
+  "author": "Zachary Knowles",
+  "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.41.2",
     "react-native-windows": "0.41.0-rc.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zknowles/react-native-ios-settings.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zknowles/react-native-ios-settings/issues"
+  },
+  "homepage": "https://github.com/zknowles/react-native-ios-settings#readme",
+  "dependencies": {
+    "eslint": "^5.16.0"
   }
 }

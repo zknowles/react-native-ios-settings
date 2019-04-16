@@ -1,6 +1,7 @@
+import { NativeModules } from 'react-native'
 
-import { NativeModules } from 'react-native';
+const { RNIosSettings } = NativeModules
 
-const { RNIosSettings } = NativeModules;
+const { openIosSettings } = RNIosSettings
 
-export default RNIosSettings;
+export { openIosSettings }
