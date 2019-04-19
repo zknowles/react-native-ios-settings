@@ -9,7 +9,7 @@
 }
 RCT_EXPORT_MODULE(RNIosSettings)
 
-RCT_EXPORT_METHOD(openIosSettings)
+RCT_EXPORT_METHOD(openSettings)
 {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
 }

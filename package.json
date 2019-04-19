@@ -1,9 +1,11 @@
 {
   "name": "react-native-ios-settings",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Package for opening iOS Settings to menu for specified app",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [
     "react-native"
   ],
