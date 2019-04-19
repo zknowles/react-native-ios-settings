@@ -4,6 +4,6 @@ const { RNIosSettings } = NativeModules
 
 const { openSettings } = RNIosSettings
 
-export function open() {
+export function openIosSettings() {
   openSettings()
 }
