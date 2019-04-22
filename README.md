@@ -1,53 +1,21 @@
-
 # react-native-ios-settings
+
+This is a package to be used in React Native apps for opening the iOS Settings app to the menu for that app.
 
 ## Getting started
 
-`$ npm install react-native-ios-settings --save`
+`$ npm install react-native-ios-settings --save` or `$ yarn add react-native-ios-settings`
 
-### Mostly automatic installation
+### Installation
 
-`$ react-native link react-native-ios-settings`
-
-### Manual installation
-
-
-#### iOS
-
-1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-ios-settings` and add `RNIosSettings.xcodeproj`
-3. In XCode, in the project navigator, select your project. Add `libRNIosSettings.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4. Run your project (`Cmd+R`)<
-
-#### Android
-
-1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-  - Add `import com.reactlibrary.RNIosSettingsPackage;` to the imports at the top of the file
-  - Add `new RNIosSettingsPackage()` to the list returned by the `getPackages()` method
-2. Append the following lines to `android/settings.gradle`:
-  	```
-  	include ':react-native-ios-settings'
-  	project(':react-native-ios-settings').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-ios-settings/android')
-  	```
-3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
-  	```
-      compile project(':react-native-ios-settings')
-  	```
-
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
-
-1. In Visual Studio add the `RNIosSettings.sln` in `node_modules/react-native-ios-settings/windows/RNIosSettings.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using Ios.Settings.RNIosSettings;` to the usings at the top of the file
-  - Add `new RNIosSettingsPackage()` to the `List<IReactPackage>` returned by the `Packages` method
-
+Add the following line to your app's Podfile
+```
+pod 'react-native-ios-settings', :path => '../node_modules/react-native-ios-settings'
+```
+and run `pod install` within your app's `ios/` directory
 
 ## Usage
 ```javascript
-import RNIosSettings from 'react-native-ios-settings';
-
-// TODO: What to do with the module?
-RNIosSettings;
+import { openIosSettings } from 'react-native-ios-settings';
 ```
   

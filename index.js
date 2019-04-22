@@ -2,8 +2,6 @@ import { NativeModules } from 'react-native'
 
 const { RNIosSettings } = NativeModules
 
-const { openSettings } = RNIosSettings
+const { openIosSettings } = RNIosSettings
 
-export function openIosSettings() {
-  openSettings()
-}
+export { openIosSettings }
