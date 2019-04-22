@@ -4,9 +4,13 @@ This is a package to be used in React Native apps for opening the iOS Settings a
 
 ## Getting started
 
-`$ npm install react-native-ios-settings --save`
+```
+$ npm install react-native-ios-settings --save
+```
 or
-`$ yarn add react-native-ios-settings`
+```
+$ yarn add react-native-ios-settings
+```
 
 ### Installation
 
@@ -22,6 +26,6 @@ import { openIosSettings } from 'react-native-ios-settings';
 
 ...
 
-openIosSettings()
+openIosSettings();
 ```
   
