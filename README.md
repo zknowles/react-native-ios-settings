@@ -4,7 +4,9 @@ This is a package to be used in React Native apps for opening the iOS Settings a
 
 ## Getting started
 
-`$ npm install react-native-ios-settings --save` or `$ yarn add react-native-ios-settings`
+`$ npm install react-native-ios-settings --save`
+or
+`$ yarn add react-native-ios-settings`
 
 ### Installation
 
@@ -17,5 +19,9 @@ and run `pod install` within your app's `ios/` directory
 ## Usage
 ```javascript
 import { openIosSettings } from 'react-native-ios-settings';
+
+...
+
+openIosSettings()
 ```
   

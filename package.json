@@ -1,6 +1,6 @@
 {
   "name": "react-native-ios-settings",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Package for opening iOS Settings to menu for specified app",
   "main": "index.js",
   "scripts": {
