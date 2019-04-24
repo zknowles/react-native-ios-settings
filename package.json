@@ -1,13 +1,16 @@
 {
   "name": "react-native-ios-settings",
-  "version": "1.0.8",
-  "description": "Package for opening iOS Settings to menu for specified app",
+  "version": "1.0.9",
+  "description": "Package for opening native iOS Settings to menu for specified app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "mobile",
+    "ios",
+    "settings"
   ],
   "author": "Zachary Knowles",
   "license": "MIT",
@@ -17,13 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zknowles/react-native-ios-settings.git"
+    "url": "git://github.com/zknowles/react-native-ios-settings.git"
   },
   "bugs": {
     "url": "https://github.com/zknowles/react-native-ios-settings/issues"
   },
-  "homepage": "https://github.com/zknowles/react-native-ios-settings#readme",
+  "homepage": "https://github.com/zknowles/react-native-ios-settings",
   "dependencies": {
     "eslint": "^5.16.0"
-  }
+  },
+  "typings": "index.d.ts"
 }
